@@ -1,6 +1,6 @@
 import instaloader
 
-
+#instascraping
 def insta_save():
 	username ="test_accout_insta"
 	loader = instaloader.Instaloader()
