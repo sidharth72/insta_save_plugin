@@ -1,1 +1,0 @@
-worker: insta_save_collection.py
