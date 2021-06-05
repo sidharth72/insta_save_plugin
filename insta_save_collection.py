@@ -1,8 +1,8 @@
 import instaloader
-from datas import username, password
+
 
 def insta_save():
-	
+	username ="_webdevelopers"
 	loader = instaloader.Instaloader()
 	loader.load_session_from_file(username)
 	profile = instaloader.Profile.from_username(loader.context,username)
