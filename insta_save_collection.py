@@ -2,9 +2,10 @@ import instaloader
 
 
 def insta_save():
-	username ="_webdevelopers"
+	username ="test_accout_insta"
 	loader = instaloader.Instaloader()
-	loader.load_session_from_file(username)
+
+	loader.load_session_from_file(username,'E://Allfiles//instagram/.test_accout_insta')
 	profile = instaloader.Profile.from_username(loader.context,username)
 
 	arr = []
