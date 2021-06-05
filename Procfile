@@ -1,1 +1,1 @@
-clock: insta_save_collection.py
+worker: insta_save_collection.py
