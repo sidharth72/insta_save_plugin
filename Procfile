@@ -1,0 +1,1 @@
+worker: python insta_save_collection.py
