@@ -5,7 +5,7 @@ def insta_save():
 	username ="test_accout_insta"
 	loader = instaloader.Instaloader()
 
-	loader.load_session_from_file(username,'E://Allfiles//instagram/.test_accout_insta')
+	loader.load_session_from_file(username,'.test_accout_insta')
 	profile = instaloader.Profile.from_username(loader.context,username)
 
 	arr = []
